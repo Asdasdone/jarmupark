@@ -10,6 +10,10 @@ namespace jarmupark
     {
         private string szin, tipus;
         private double uzemanyag, fogyaszt,km,megtehetokm;
+        public double UZEMANYAG { get { return uzemanyag; } }
+        public double FOGYASZT { get { return fogyaszt; } }
+        public double KM { get { return km; } }
+
         public auto(string szin,string tipus,double fogyaszt)
         {
             this.szin = szin;
@@ -18,6 +22,7 @@ namespace jarmupark
             this.km = 0;
             this.uzemanyag=0;
             this.megtehetokm = 0;
+
 
         }
         private void megteheto()

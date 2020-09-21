@@ -31,7 +31,8 @@ namespace jarmupark
 
             trabant.állapot();
             lada.állapot();
-
+            Console.WriteLine("Trabant KM: {0}",trabant.KM);
+            Console.WriteLine("trabant üzemanyaga: {0}",trabant.UZEMANYAG);
             Console.ReadKey();
         }
     }
